@@ -12,6 +12,8 @@ The repository will grow over time with new and interesting projects. You can fi
 | Project 2    | A brief explanation of the problem solved. | ⏳ | [View Project](link_here) |
 | ...          | ...         | ...    | ...  |
 
+There is a full version of this chart that alos includes the completion date: [Document](https://docs.google.com/spreadsheets/d/1HIpnsAUGiEIJFADnuGX0tSWHkmWUGgZxwUcUYz4n8QM/edit?usp=sharing)
+
 ## Contribution
 Feel free to explore the projects and offer any feedback or suggestions. All contributions are welcome!
 
