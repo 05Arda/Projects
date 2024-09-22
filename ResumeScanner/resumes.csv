@@ -1,6 +1,0 @@
-Name,Email,Phone,Total_Exp,University,Designation,Degree,Skills
-John Doe,johndoe@example.com,123-456-7890,5,Harvard University,Software Engineer,B.Sc.,"Python, Java, C++, Machine Learning, Data Science, SQL, Cloud Computing"
-Jane Smith,janesmith@example.com,098-765-4321,3,Stanford University,Data Analyst,M.Sc.,"Excel, Python, R, SQL, PowerBI, Data Visualization, Statistics, Data Mining"
-Michael Johnson,michaeljohnson@example.com,321-654-9870,7,MIT,Senior Data Scientist,Ph.D.,"Python, Deep Learning, TensorFlow, NLP, Data Analysis, Research, Project Management"
-Alice Brown,alicebrown@example.com,234-567-8901,2,UCLA,Junior Software Developer,B.Sc.,"JavaScript, React, Node.js, HTML, CSS, Git, Web Development, Frontend, Backend"
-Robert Wilson,robertwilson@example.com,456-789-0123,4,UC Berkeley,Data Engineer,M.Eng.,"Python, SQL, AWS, ETL, Data Pipelines, Data Warehousing, Hadoop, Spark, Big Data"
