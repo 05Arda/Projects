@@ -5,18 +5,18 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 
-gmail_user = 'pythonemailservice7@gmail.com'
-gmail_password = 'zvsblugnslnsbufr'
+gmail_user = 'sender@gmail.com'
+gmail_password = 'password'
 
-to_emails = ['ardaozturk0560@gmail.com']
+to_emails = ['receiver@gmail.com']
 
 
-subject = 'Gelişmiş Test Maili'
+subject = 'Test Mail'
 body = """
 <html>
   <body>
-    <h1>Merhaba!</h1>
-    <p>Bu bir <b>test</b> mailidir.</p>
+    <h1>Hello World!</h1>
+    <p>This is a <b>test</b> mail.</p>
   </body>
 </html>
 """
@@ -29,7 +29,7 @@ msg['Subject'] = subject
 
 msg.attach(MIMEText(body, 'html'))
 
-file_path = '/dosya/yolu/dosyaadi.pdf'
+file_path = 'path/To/File.pdf'
 
 try:
     with open(file_path, 'rb') as attachment:
@@ -39,7 +39,7 @@ try:
         part.add_header('Content-Disposition', f'attachment; filename= {file_path}')
         msg.attach(part)
 except Exception as e:
-    print(f'Dosya ekleme hatası: {e}')
+    print(f'Failed to attach file: {e}')
 
 
 try:
@@ -48,6 +48,6 @@ try:
     server.login(gmail_user, gmail_password)
     server.sendmail(gmail_user, to_emails, msg.as_string())
     server.quit()
-    print('E-posta başarıyla gönderildi!')
+    print('The mail was sent successfully!')
 except Exception as e:
-    print(f'E-posta gönderme hatası: {e}')
+    print(f'A problem occurred while trying to send the mail: {e}')
