@@ -7,7 +7,7 @@ Welcome to my **Weekly Project Challenges** repository!
 Each week, I'll be creating and uploading a new project that tackles a problem, aiming to continuously improve my development skills.
 
 ## Projects
-The repository will grow over time with new and interesting projects. You can find all the projects in the list below, along with a brief description and a link to their respective folders.
+The repository will grow over time with new and interesting projects. You can find all the projects in the repository, and also the last two projects below, along with a brief description and a link to their respective folders.
 
 | Project Name | Description | Status | Link |
 |--------------|-------------|--------|------|
