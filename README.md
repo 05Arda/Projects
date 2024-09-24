@@ -8,9 +8,8 @@ The repository will grow over time with new and interesting projects. You can fi
 
 | Project Name | Description | Status | Link |
 |--------------|-------------|--------|------|
-| Project 1    | A brief explanation of the problem solved. | ✅ | [View Project](link_here) |
-| Project 2    | A brief explanation of the problem solved. | ⏳ | [View Project](link_here) |
-| ...          | ...         | ...    | ...  |
+| RockPaperScissors | Made a simple rock, paper, scissors game in python. | ✅ | [View Project](https://github.com/05Arda/WeeklyProjectChallange/tree/main/12.%20RockPaperScissors) |
+| ChessBot    | Making a fully functional chess bot. | ⏳ | [View Project]() |
 
 There is a full version of this chart that alos includes the completion date: [Document](https://docs.google.com/spreadsheets/d/1HIpnsAUGiEIJFADnuGX0tSWHkmWUGgZxwUcUYz4n8QM/edit?usp=sharing)
 
